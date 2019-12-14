@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
+import { Button } from 'reactstrap';
 import './Header.scss';
 
-import {
-  Link
-} from "react-router-dom";
+import Menu from '../Menu/Menu'
+import MiniProfile from '../MiniProfile/MiniProfile'
 
 export default class Header extends Component {
   constructor(props) {
@@ -19,19 +19,15 @@ export default class Header extends Component {
   render() {
     return (
       <div className="Header">
-                <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
-            </li>
-          </ul>
-        </nav>
+        <div className="container">
+
+          <div className="logo"></div>
+
+          <Menu />
+
+          <Button outline class="searchButton"> Search </Button>
+          <MiniProfile />
+        </div>
       </div>
     )
   }
