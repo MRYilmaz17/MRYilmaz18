@@ -8,6 +8,8 @@ import {
 import Header from './Components/Header/Header'
 
 import './App.scss';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Homepage from './Containers/Homepage/Homepage'
 
 function App() {

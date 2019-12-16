@@ -1,0 +1,19 @@
+.Menu {
+
+    nav {
+        float: right;
+        min-width: 550px;
+        text-align: right;
+
+        ul {
+            li {
+                list-style: none;
+
+                a {
+                    float: left;
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+}
