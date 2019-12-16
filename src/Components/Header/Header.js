@@ -19,7 +19,7 @@ export default class Header extends Component {
   render() {
     return (
       <div className="Header">
-                <nav>
+        <nav>
           <ul>
             <li>
               <Link to="/">Home</Link>
